@@ -1,5 +1,10 @@
 class Hash
   def keys_of(arguments)
-    # code goes here
+    dict = {
+      "Panama" => ["red-footed tortoise"],
+      "Madagascar" => ["aye-aye", "tomato frog"],
+      "Australia" => ["sugar glider", "kangaroo", "koala"]
+    }
+    dict[arguments]
   end
 end
